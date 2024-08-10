@@ -1,0 +1,183 @@
+:root{
+    --background-color: #041c2c;
+    --color-tittle: #a9b5cd ;
+    --color-subtittle:  #72819c ;
+    --color-fluor:  #0aafa4 ;
+    --color-text:  #3a4b65 ;
+}
+
+*{
+    font-family: 'Red Hat Display';
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 3rem;
+}
+
+.container{
+   max-width: 1440px;
+    margin: 0 auto;
+}
+
+.navBar nav{
+   display: flex;
+   justify-content:flex-end;
+}
+
+.btnCont{
+    align-self: center;
+  
+}
+
+
+nav, ul, li{
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0.5rem;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-tittle);
+    font-weight: 1000;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+a:hover{
+    color: var(--color-fluor);
+}
+
+ .btnCont .btnContacto{
+    text-decoration: none;
+    color: var(--background-color);
+    padding: 1rem;
+    background-color: var(--color-fluor);
+    border-radius: 16px;
+    transition-property: color;
+    transition-duration: 2s;
+    font-weight: 1000;
+}
+
+.btnCont .btnContacto:hover{
+    color: var(--color-text);
+    background-color: var(--color-tittle);
+}
+
+#sobreMi h1{
+    color: var(--color-tittle);
+    font-size: 4rem;
+    margin:0;
+}
+
+#sobreMi h2{
+    color: var(--color-subtittle);
+    font-size: 3rem;
+    margin:0;
+    padding-left: 10px;
+}
+
+.pName{
+    font-family: 'Cutive Mono';
+    color: var(--color-fluor);
+    font-weight: 900;
+}
+
+.sobreMiP{
+    color: var(--color-text);
+    text-align: left;
+    font-weight: 600;
+}
+
+.sobreMiContenedor{
+    max-width: 50%;
+    margin-left: 4rem;
+    padding-top: 3rem;
+}
+
+.destacados1 h2{
+    color: var(--color-subtittle);
+    font-size: 3rem;
+    text-align: right;
+}
+
+.destacadosP{
+    color: var(--color-text);
+    text-align: right;
+    font-weight: 600;
+}
+
+.destacados1{
+    width: 50%;
+   margin-left: 35rem;
+   padding-top: 10rem;
+}
+
+.iconFolders{
+    display: flex;
+    padding-top: 10rem;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.iconFolders img{
+    width:40%;
+}
+
+.destacados2{
+    width: 50%;
+    padding-top: 10rem;
+    margin-left: 4rem;
+}
+
+.destacados2P{
+    color: var(--color-text);
+    text-align: left;
+    font-weight: 600;
+}
+
+.destacados2 h2{
+    color: var(--color-subtittle);
+    font-size: 3rem;
+    text-align: left;
+}
+
+.container .contactCenter{
+    align-content: center;
+    margin-left: 20rem;
+}
+
+.contactCenter{
+    display: flex;
+    padding-top: 10rem;
+    justify-content: center;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+   
+    
+}
+
+.contactCenter a{
+    font-size: xx-large;
+}
+
+label{
+    color: var(--color-fluor);
+}
+
+#contacto h2{
+    color: var(--color-fluor);
+}
+
+#contacto{
+    padding-top: 15rem;
+}
